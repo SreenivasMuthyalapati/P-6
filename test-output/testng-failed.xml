@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+  </listeners>
+  <test thread-count="5" name="My Test(failed)">
+    <classes>
+      <class name="com.OrangeHRM.TS3">
+        <methods>
+          <include name="adminUM"/>
+          <include name="TC009"/>
+          <include name="close"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.TS3 -->
+    </classes>
+  </test> <!-- My Test(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

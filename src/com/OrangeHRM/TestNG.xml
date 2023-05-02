@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite" verbose="1">
+	<listeners>
+		<listener class-name="org.testng.reporters.EmailableReporter" />
+	</listeners>
+	<test name="My Test" email="sreenivasmuthyalapati@gmail.com">
+		<classes>
+			<class name="com.OrangeHRM.TS1" />
+			<class name="com.OrangeHRM.TS2" />
+			<class name="com.OrangeHRM.TS3" />
+			<class name="com.OrangeHRM.TS4" />
+			<class name="com.OrangeHRM.TS5" />
+			<class name="com.OrangeHRM.TS6" />
+			<class name="com.OrangeHRM.TS7" />
+		</classes>
+	</test>
+</suite>
